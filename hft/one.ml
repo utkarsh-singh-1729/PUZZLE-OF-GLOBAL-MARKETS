@@ -1,15 +1,4 @@
-(*   Welcome to the official OCaml Playground! *)
 
-  You don't need to install anything - just write your code
-  and see the results appear in the Output panel.
-
-  This playground is powered by OCaml 5 which comes with
-  support for shared-memory parallelism through domains and effects.
-  Below is some naive example code that calculates
-  the Fibonacci sequence in parallel.
-  
-  Happy hacking!
-*)
 
 let num_domains = 2
 let n = 20
