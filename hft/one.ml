@@ -18,17 +18,3 @@ let () =
   let res = fib_par n num_domains in
   Printf.printf "fib(%d) = %d\n" n res
 
-(*
-  By the way, a much better, single-threaded implementation that calculates
-  the Fibonacci sequence is this:
-
-  let rec fib m n i =
-    if i < 1 then m
-    else fib n (n + m) (i - 1)
-
-  let fib = fib 0 1
-
-  For a more in-depth, realistic example of how to use
-  parallel computation, take a look at
-  https://v2.ocaml.org/releases/5.0/manual/parallelism.html#s:par_iterators
-*)
