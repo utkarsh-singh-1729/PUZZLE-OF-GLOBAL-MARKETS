@@ -1,6 +1,5 @@
 # High-Frequency Trading (HFT) Platform 🚀
 
-[![OCaml CI](https://github.com/utkarsh-singh-1729/hft-platform/actions/workflows/ocaml.yml/badge.svg)](https://github.com/utkarsh-singh-1729/hft-platform/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A high-performance, multi-language trading system designed for low-latency execution and market analysis. Built with OCaml as the core language, supplemented by other languages for specific subsystems.
