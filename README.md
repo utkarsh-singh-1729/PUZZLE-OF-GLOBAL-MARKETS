@@ -14,12 +14,6 @@ A high-performance, multi-language trading system designed for low-latency execu
 - Hybrid architecture combining functional and imperative paradigms
 
 
-##Cross-Language IPC
--Component	Protocol	Latency Target
--Market Data	ZeroMQ	<5μs
--Order Routing	Cap'n Proto	<2μs
--Backtesting	Arrow Flight	<1ms
-
 ## Architecture Overview 🏗️
 
 ```mermaid
